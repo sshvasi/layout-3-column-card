@@ -88,3 +88,25 @@ a {
 .card__btn--third {
   color: hsl(179, 100%, 13%);
 }
+
+/* adaptive */
+
+@media screen and (max-width: 950px) {
+  .container {
+    margin-top: 0;
+  }
+
+  .card-list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+} ;
