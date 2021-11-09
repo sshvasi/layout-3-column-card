@@ -7,6 +7,7 @@
 }
 
 body {
+  box-sizing: inherit;
   font-family: 'Lexend Deca', sans-serif;
   background: hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
@@ -20,12 +21,24 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 10px;
+  margin-top: 10rem;
+  padding: 0 10px;
 }
 
 .card-list {
   display: flex;
+}
+
+.card-list__card--first {
+  background: hsl(31, 77%, 52%);
+}
+
+.card-list__card--second {
+  background: hsl(184, 100%, 22%);
+}
+
+.card-list__card--third {
+  background: hsl(179, 100%, 13%);
 }
 
 .card {
@@ -52,31 +65,26 @@ a {
 }
 
 .card__btn {
+  border: 2px solid hsl(0, 0%, 95%);
   padding: 15px 30px;
   border-radius: 30px;
-  background-color: hsl(0, 0%, 95%);
+  background: hsl(0, 0%, 95%);
 }
 
-.card-list__first-card {
-  background: hsl(31, 77%, 52%);
+.card__btn:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background: transparent;
 }
 
-.card-list__first-card .card__btn {
+.card__btn--first {
   color: hsl(31, 77%, 52%);
 }
 
-.card-list__second-card {
-  background: hsl(184, 100%, 22%);
-}
-
-.card-list__second-card .card__btn {
+.card__btn--second {
   color: hsl(184, 100%, 22%);
 }
 
-.card-list__third-card {
-  background: hsl(179, 100%, 13%);
-}
-
-.card-list__third-card .card__btn {
+.card__btn--third {
   color: hsl(179, 100%, 13%);
 }
