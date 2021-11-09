@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  background: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.card-list {
+  display: flex;
+}
+
+.card {
+  width: 307px;
+  padding: 45px;
+}
+
+.card__icon {
+  margin-bottom: 40px;
+}
+
+.card__title {
+  margin-bottom: 35px;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.card__description {
+  margin-bottom: 85px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card__btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card-list__first-card {
+  background: hsl(31, 77%, 52%);
+}
+
+.card-list__first-card .card__btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-list__second-card {
+  background: hsl(184, 100%, 22%);
+}
+
+.card-list__second-card .card__btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-list__third-card {
+  background: hsl(179, 100%, 13%);
+}
+
+.card-list__third-card .card__btn {
+  color: hsl(179, 100%, 13%);
+}
