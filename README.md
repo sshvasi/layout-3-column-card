@@ -4,4 +4,4 @@
 
 Адаптировал под мобильные устройства.
 
-Макет взят [отсюда](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
+Макет взял [отсюда](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
